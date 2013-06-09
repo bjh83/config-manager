@@ -2,13 +2,13 @@
 from conf_manager import Repo, Config
 
 Repo('https://github.com/bjh83/config.git', [
-    Config('/home/brendan/test.txt',
-        'test.txt'
+    Config('/home/brendan/.vimrc',
+        '.vimrc'
         ),
-    Config('/home/brendan/foo',
-        'foo'
+    Config('/home/brendan/.zshrc',
+        '.zshrc'
         ),
-    Config('/home/brendan/bar',
-        'foobar'
+    Config('/home/brendan/.vim',
+        '.vim'
         ),
     ]).make()
