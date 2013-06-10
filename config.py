@@ -1,7 +1,7 @@
 # A config file index
 from conf_manager import Repo, Config
 
-Repo('https://github.com/bjh83/config.git', [
+Repo('http://github.com/bjh83/config.git', [
     Config('/home/brendan/.vimrc',
         '.vimrc'
         ),
