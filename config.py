@@ -11,4 +11,7 @@ Repo('https://github.com/bjh83/config.git', [
     Config('/home/brendan/.vim',
         '.vim'
         ),
-    ]).make()
+    Clone('/home/brendan/.vim',
+        'git://github.com/gmarik/vundle.git'
+        ),
+    ])
